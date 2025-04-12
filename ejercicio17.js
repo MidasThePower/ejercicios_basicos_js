@@ -10,5 +10,14 @@ const alien = {
   weight: 180
 }
 
-for (key in alien) {
+/*const aliens =
+  Object.keys(alien)
+
+for (let i = 0; i < aliens.length; i++) {
+  let xeno = aliens[i]
+  console.log(xeno)
+}*/
+
+for (const xeno in alien) {
+  console.log('La propiedad ' + xeno + ' tiene como valor ' + alien[xeno])
 }
