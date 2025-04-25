@@ -7,7 +7,7 @@ Puedes usar este array para probar tu función:
 const numbers = [1, 2, 3, 5, 45, 37, 58]
 
 function sumNumbers(numberList) {
-  let total = ''
+  let total = 0
   for (i = 0; i <= numberList.lenght; i++) {
     numberList[i] = number
     total = total + number
